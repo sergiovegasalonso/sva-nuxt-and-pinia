@@ -1,7 +1,5 @@
-<script setup lang="ts">
-const counter = useCounter();
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>About page: {{ counter }}</div>
+  <div>About page:</div>
 </template>

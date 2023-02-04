@@ -1,13 +1,13 @@
 export default defineNuxtConfig({
     modules: [
         [
-            '@pinia/nuxt',
+            "@pinia/nuxt",
             {
                 autoImports: [
-                    'defineStore', // import { defineStore } from 'pinia'
-                    ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
+                    "defineStore", // import { defineStore } from 'pinia'
+                    ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
                 ],
             },
         ],
     ],
-})
+});
